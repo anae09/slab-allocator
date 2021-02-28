@@ -12,7 +12,7 @@
 #define SIZE_N_OFFSET 5
 
 #define CHECK_ALLOC(x) if(!x) \
-{ printf("Greska prilikom alokacije memorije!"); exit(1);}
+{ printf("Memory allocation error!"); exit(1);}
 
 #define slabListStart(ss) (unsigned int*)((unsigned long)ss + sizeof(slab))
 #define cacheListStart(start_addr) (unsigned int*)((unsigned long)start_addr + sizeof(cacheBlock))
