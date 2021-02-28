@@ -4,7 +4,7 @@
 
 Kernel memory allocation using slab and buddy allocator.
 This project goals are:
- - allocation of small blocks of memory to help eliminate internal fragmentation 
+ - allocation of small memory buffers to help eliminate internal fragmentation 
  - caching of commonly used objects so that the system does not waste time allocating, initialising and destroying objects
  - better utilisation of hardware cache by aligning objects to the L1 caches
 
